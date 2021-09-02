@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LifeLine Services</title>
+  <link rel="icon" href="/images/favicon.png" type="image/icon type">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css">
+  <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+  <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"/>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="style/lifeline.css">
+</head>
+<body>
+  <div class="container_m">  
+    <div class="page-1">
+        <nav class="navbar d-flex justify-content-around">
+            <div class="content">
+              <div class="logo"><a href="#"><img src="images/favicon.jpg" alt=""></a></div>
+              <ul class="menu-list ">
+                <div class="icon cancel-btn">
+                  <i class="fas fa-times"></i>
+                </div>
+                <li><a href="#" class="hove-in">Home</a></li>
+                <li><a href="#" class="hove-in">lighting deal</a></li>
+                <li><a href="#"class="hove-in">explore employee</a></li>
+                <li><a href="#"class="hove-in">register as a service provider</a></li>
+                <li><a href="#" data-toggle="dropdown"  class="hove-in dropdown-toggle">login</a>
+                  <ul class="dropdown-menu form-wrapper">					
+                    <li>
+                      <form action="/examples/actions/confirmation.php" method="post">
+                        <p class="hint-text">Sign in with your social media account</p>
+                        <div class="form-group social-btn clearfix">
+                          <a href="#" class="btn btn-primary pull-left"><i class="fa fa-facebook"></i> Facebook</a>
+                          <a href="#" class="btn btn-info pull-right"><i class="fa fa-twitter"></i> Twitter</a>
+                        </div>
+                        <div class="or-seperator"><b>or</b></div>
+                        <div class="form-group">
+                          <input type="text" class="form-control" placeholder="Username" required="required">
+                        </div>
+                        <div class="form-group">
+                          <input type="password" class="form-control" placeholder="Password" required="required">
+                        </div>
+                        <input type="submit" class="btn btn-primary btn-block" value="Login">
+                        <div class="form-footer">
+                          <a href="#">Forgot Your password?</a>
+                        </div>
+                      </form>
+                    </li>
+                  </ul>
+                </li>
+                <li><a href="#" data-toggle="dropdown" class="hove-in dropdown-toggle get-started-btn">sign up</a>
+                  <ul class="dropdown-menu form-wrapper">					
+                    <li>
+                      <form action="/examples/actions/confirmation.php" method="post">
+                        <p class="hint-text">Fill in this form to create your account!</p>
+                        <div class="form-group">
+                          <input type="text" class="form-control" placeholder="Username" required="required">
+                        </div>
+                        <div class="form-group">
+                          <input type="password" class="form-control" placeholder="Password" required="required">
+                        </div>
+                        <div class="form-group">
+                          <input type="password" class="form-control" placeholder="Confirm Password" required="required">
+                        </div>
+                        <div class="form-group">
+                          <label class="checkbox-inline"><input type="checkbox" required="required"> I accept the <a href="#">Terms &amp; Conditions</a></label>
+                        </div>
+                        <input type="submit" class="btn btn-primary btn-block" value="Sign up">
+                      </form>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+              <div class="icon menu-btn">
+                <i class="fas fa-bars"></i>
+              </div>
+            </div>
+          </nav>
+
+       <div class="service-searching">
+           <div class="service-all-input">
+               <input type="text" value="" placeholder="location" class="search-location services">
+               <input type="text" value="" placeholder="Search Servcice" class="search-services services">
+            </div>
+            <input type="button" value="Search" class="Search">
+       </div>
+       <div class="serviceavailable">
+        <h5 style="text-align: center; color: white; font-weight: 300; font-size: 1.5rem;">Services Avaialble</h5>
+       <div class="service-image images d-flex flex-wrap justify-content-center">
+       <a href="BABYSITTING.HTML">
+           <img src="https://images.unsplash.com/photo-1509114859430-5f2c74177f4b?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80" alt="BABYSITTING">
+           <p>Baby Sitting</p>
+       </a>
+       <a href="CARPENTAR.HTML">
+           <img src="https://images.pexels.com/photos/1388944/floor-flooring-hand-man-1388944.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="CARPENTER">
+           <p>Carpentar</p>
+       </a>
+       <a href="CONSTRUCTION.HTML">
+           <img src="https://images.unsplash.com/photo-1504307651254-35680f356dfd?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1955&q=80" alt="CONSTRUCTION">
+           <p>Construction</p>
+    
+       </a>
+       <a href="COOK.HTML">
+           <img src="https://images.unsplash.com/photo-1590794056229-046a14bf174e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80" alt="Cook">
+           <p>Cook</p>
+       </a>
+       <a href="ELECTRIC.HTML">
+           <img src="https://images.unsplash.com/photo-1543333101-840e043d2a7d?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NTF8fGVsZWN0cmljfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="Electric">
+           <p style="color: rgb(255, 255, 255);" >Electric</p>
+       </a>
+       <a href="EVENTPLANNER.HTML">
+           <img src="https://images.unsplash.com/photo-1560523160-754a9e25c68f?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTh8fGV2ZW50fGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="Event Planner">
+           <p style="color: rgb(253, 253, 253);" >Event Planner</p>
+       </a>
+       <a href="FINANCIAL.HTML">
+           <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1002&q=80" alt="Financial">
+           <p>Financial</p>
+       </a>
+    
+       <a href="HOMECLEANER.HTML">
+           <img src="https://images.unsplash.com/photo-1563453392212-326f5e854473?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjJ8fGhvbWUlMjBjbGVhbmVyfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="Home Cleaner">
+           <p>Home Cleaner</p>
+       </a>
+       <a href="HOMESERVICE.HTML">
+           <img src="https://images.unsplash.com/photo-1581578731548-c64695cc6952?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8aG9tZSUyMHNlcnZpY2V8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="Home Cleaner">
+           <p>Home Service</p>
+       </a>
+       <a href="HOMECARE.HTML">
+           <img src="https://images.unsplash.com/photo-1581578017426-04fbc2b0511e?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTN8fGhvbWUlMjBjYXJlfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="Home Care">
+           <p>Home Care</p>
+       </a>
+       <a href="INTERIORDESIGNER.HTML">
+           <img src="https://images.unsplash.com/photo-1617978241112-898785df45b9?ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8aW50ZXJpb3IlMjBkZXNpZ25lcnxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="Interior Designer">
+           <p>Interior Designer</p>
+       </a>
+       <a href="LAUNDRY.HTML">
+           <img src="https://images.unsplash.com/photo-1517677208171-0bc6725a3e60?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8bGF1bmRyeXxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="Laundry">
+           <p>Laundry</p>
+       </a>
+       <a href="LEGALSERVICES.HTML">
+           <img src="https://images.unsplash.com/photo-1589829545856-d10d557cf95f?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8bGVnYWwlMjBzZXJ2aWNlc3xlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="Legal Services">
+           <p>Legal Services</p>
+       </a>
+       <a href="MECHENIC.HTML">
+           <img src="https://images.unsplash.com/photo-1504222490345-c075b6008014?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8bWVjaGFuaWN8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="Mechanic">
+           <p>Mechanic</p>
+       </a>
+    
+       <a href="PAINTER.HTML">
+           <img src="https://images.unsplash.com/photo-1622250544703-997d69d856e3?ixid=MnwxMjA3fDB8MHxzZWFyY2h8N3x8cGFpbnRlcnxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="Painter">
+           <p>Painter</p>
+       </a>
+       <a href="PLUMBER.HTML">
+           <img src="https://images.unsplash.com/photo-1517646287270-a5a9ca602e5c?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8cGx1bWJlcnxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="Plumber">
+           <p>Plumber</p>
+       </a>
+       <a href="REPAIRMAN.HTML">
+           <img src="https://images.unsplash.com/photo-1452980904795-dc36a4d90da4?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzJ8fHJlcGFpciUyMG1hbnxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="Repair Man">
+           <p>Repair Man</p>
+       </a>
+       <a href="SECURITYGUARD.HTML">
+           <img src="https://images.unsplash.com/photo-1513880365980-7159ec1cba3a?ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8c2VjdXJpdHklMjBnYXVyZHxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="Security Gaurd">
+           <p>Security Gaurd</p>
+       </a>
+       <a href="TECHNICIAN.HTML">
+           <img src="https://images.unsplash.com/photo-1604754742629-3e5728249d73?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8dGVjaG5pY2lhbnxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="Technician">
+           <p>Technician</p>
+       </a>
+       <a href="TOURISM.HTML">
+           <img src="https://images.unsplash.com/photo-1619120238346-978e07731e77?ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8dG91cmlzbXxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="Tourism">
+           <p>Tourism</p>
+       </a>
+ </div>
+    </div>
+   </div>
+
+    <section class="image-slider" id="deal-sale">
+        <div class="container-slider">
+            <div class="panel active" style="background-image: url(https://images.unsplash.com/photo-1607082350899-7e105aa886ae?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80);">
+            <h3>best sale</h3>
+            </div>
+            <div class="panel" style="background-image: url(https://images.unsplash.com/photo-1527264935190-1401c51b5bbc?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mjl8fGJlcyUyMGRlYWx8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60);">
+                <h3>best  deal</h3>
+           </div>
+             <div class="panel" style="background-image: url(https://images.unsplash.com/photo-1522158637959-30385a09e0da?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fGV2ZW50fGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60);">
+               <h3>best  event</h3>
+            </div>
+            <div class="panel" style="background-image: url(https://images.unsplash.com/photo-1546502208-81d149d52bd7?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTl8fHNhbGUlMjA1MCUyNXxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60);">
+               <h3>sale 50% off</h3>
+            </div>
+             <div class="panel" id="abilities" style="background-image: url(https://images.pexels.com/photos/7706466/pexels-photo-7706466.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);">
+               <h3>best  services</h3>
+             </div>
+        </div> 
+    </section>
+
+    <section class="page-3" id="page-3">
+        <h4 class="center-feature">Feature Employee</h4>
+        <div class="feature-employe">
+                <div class="card card-1">
+                    <img src="images/employee/carpentar/one.jpg" alt="Sonu">
+                     <div class="destails">
+                         <h4 class="name">Sonu</h4>
+                         <h3 class="field">Construction & Engineering</h3>
+                     </div>
+                </div>
+
+                <div class="card card-2">
+                    <img src="images/employee/carpentar/two.jpg" alt="Sanjay">
+                     <div class="destails">
+                         <h4 class="name">Sanjay</h4>
+                         <h3 class="field">Carpenter
+                            
+                        </h3>
+                     </div>
+                </div>
+
+                <div class="card card-3">
+                    <img src="images/employee/carpentar/three.jpg" alt="Shivam">
+                     <div class="destails">
+                         <h4 class="name">Shivam</h4>
+                         <h3 class="field">Mechanic
+                        </h3>
+                     </div>
+                </div>
+                
+                <div class="card card-4">
+                    <img src="images/employee/carpentar/four.jpg" alt="Pranav">
+                     <div class="destails">
+                         <h4 class="name">Pranav</h4>
+                         <h3 class="field">Plumber</h3>
+                     </div>
+         </div>
+        </div>
+    </section>
+
+    <footer id="dk-footer" class="dk-footer">
+      <div class="container">
+          <div class="row d-flex justify-content-between">
+              <div class="col-md-6">
+                  <div class="dk-footer-box-info">
+
+                     <div class="flex">
+                      <a href="index.html" class="footer-logo">
+                          <img src="images/favicon.png" alt="footer_logo" class="img-fluid">
+                      </a>
+                      <p class="footer-info-text">
+                        AAKANKSHA is an MSME E-commerce platform registered under Indian government .It is a
+Consumer Service company providing all the services at one place for wide range of customers
+from different profession,age-groups,society.
+                      </p>
+                   </div>
+
+                      <div class="footer-social-link">
+                          <h3 class="text-center">Follow us</h3>
+                          <ul class="text-center">
+                              <li>
+                                  <a href="https://www.facebook.com/AAKANKSHAcompany">
+                                      <i class="fa fa-facebook"></i>
+                                  </a>
+                              </li>
+                              <li>
+                                  <a href="https://twitter.com/AAKANKS57852311">
+                                      <i class="fa fa-twitter"></i>
+                                  </a>
+                              </li>
+                              <li>
+                                  <a href="https://www.youtube.com/channel/UCQ79LZ_IrnxzkFL5MZxxOeg">
+                                      <i class="fa fa-youtube-square"></i>
+                                  </a>
+                              </li>
+                              <li>
+                                  <a href="https://www.linkedin.com/company/aakankshaecommerce/?viewAsMember=true">
+                                      <i class="fa fa-linkedin"></i>
+                                  </a>
+                              </li>
+                              <li>
+                                  <a href="https://www.instagram.com/aakankshacompany/">
+                                      <i class="fa fa-instagram"></i>
+                                  </a>
+                              </li>
+                          </ul>
+                      </div>
+                      <!-- End Social link -->
+                  </div>
+                  <!-- End Footer info -->
+              </div>
+               <div class="feedback_form">
+    <div class="feedback_form_input">
+      <h2>Feedback</h2> 
+      <p> Please provide your feedback below: </p>
+       <form action="">
+         <div class="form_group_1">
+           <h5>How do you rate your overall experience?</h5>
+           <p>
+             <label for="">
+               <input type="radio" name="experience" id="radio_experience" value="bad">Bad
+              </label>
+              
+              <label for="">
+                <input type="radio" name="experience" id="radio_experience" value="average">Average
+              </label>
+              
+              <label for="">
+                <input type="radio" name="experience" id="radio_experience">Good
+              </label>
+            </p>
+          </div>
+
+         <div class="form_group_2">
+            <textarea name="" id="" cols="25" rows="5" placeholder="Your  Comments"></textarea>
+         </div>
+
+
+         <div class="form_group_3">
+           <input type="text" placeholder="Your Name" name="name" class="input-name" required>
+           <input type="email" placeholder="Email" class="input-email" name="email" required>
+         </div>
+
+        <div class="form_group_4">
+          <button type="submit">Post</button>
+        </div> 
+       </form>
+    </div>
+              </div>
+              <!-- End Col -->
+          </div>
+          <!-- End Widget Row -->
+      </div>
+      <!-- End Contact Container -->
+
+
+      <div class="copyright">
+          <div class="container">
+              <div class="row">
+                  <div class="col-md-6">
+                      <span>Copyright &copy; <span style="color: rgb(113, 236, 236);">AAKANKSHA</span>  2021, All Right Reserved</span>
+                  </div>
+                  <!-- End Col -->
+                  <div class="col-md-6">
+                      <div class="copyright-menu">
+                          <ul>
+                              <li>
+                                  <a href="index.html">Home</a>
+                              </li>
+                              <li>
+                                  <a href="#">Terms</a>
+                              </li>
+                              <li>
+                                  <a href="#">Privacy Policy</a>
+                              </li>
+                              <li>
+                                  <a href="#">Contact</a>
+                              </li>
+                          </ul>
+                      </div>
+                  </div>
+                  <!-- End col -->
+              </div>
+              <!-- End Row -->
+          </div>
+          <!-- End Copyright Container -->
+      </div>
+   </footer>
+
+ </div>
+  <button class="goTop fas fa-arrow-up"></button>
+</body>
+<script src="js/lifeline.js"></script>
+<script>
+    const panels = document.querySelectorAll(".panel");
+
+panels.forEach((panels) => {
+    panels.addEventListener("click", () =>{
+        removeActiceClasses();
+        panels.classList.add("active");
+    });
+});
+
+function removeActiceClasses() {
+    panels.forEach((panels) =>{
+        panels.classList.remove("active");
+    });
+}
+
+const body = document.querySelector("body");
+    const navbar = document.querySelector(".navbar");
+    const menu = document.querySelector(".menu-list");
+    const menuBtn = document.querySelector(".menu-btn");
+    const cancelBtn = document.querySelector(".cancel-btn");
+    menuBtn.onclick = ()=>{
+      menu.classList.add("active");
+      menuBtn.classList.add("hide");
+      cancelBtn.classList.add("show");
+    }
+    cancelBtn.onclick = ()=>{
+      menu.classList.remove("active");
+      menuBtn.classList.remove("hide");
+      cancelBtn.classList.remove("show");
+    }
+ </script>
+ <script>
+	// Prevent dropdown menu from closing when click inside the form
+	$(document).on("click", ".navbar-right .dropdown-menu", function(e){
+		e.stopPropagation();
+	});
+</script>
+</html>
